@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research portfolio in computer vision, machine learning, and scientific imaging.">
+  <title>Research Portfolio | Computer Vision & Scientific Imaging</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121a2d;--panel2:#172239;--text:#edf2ff;--muted:#aab6d1;--line:#2a3855;--accent:#9b8cff;--cyan:#6dd6e7;--max:1080px}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse at top right,#1d2450 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--cyan);text-decoration:none} a:hover{text-decoration:underline} .wrap{max-width:var(--max);margin:auto;padding:0 24px}
+    header{padding:22px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:#0b1020eF;backdrop-filter:blur(14px);z-index:2}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.02em;color:var(--text)} .navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.93rem}
+    .hero{padding:90px 0 66px;display:grid;grid-template-columns:1.5fr .8fr;gap:48px;align-items:center}
+    .eyebrow{color:var(--cyan);font-size:.82rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.06;letter-spacing:-.055em;margin:14px 0 20px}
+    .gradient{background:linear-gradient(100deg,#b3a6ff,#6dd6e7);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:1.14rem;color:var(--muted);max-width:690px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;border:1px solid var(--line);padding:10px 16px;border-radius:12px;color:var(--text);font-weight:650;background:var(--panel)}.btn.primary{background:linear-gradient(110deg,#7565db,#397c9b);border:0}
+    .visual{min-height:280px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#1b2540,#11182a);display:grid;place-items:center;overflow:hidden;position:relative}
+    .visual:before,.visual:after{content:"";position:absolute;border:1px solid #7b8cff70;border-radius:50%;width:220px;height:220px;transform:rotate(-25deg) scaleX(.62)}.visual:after{width:155px;height:155px;transform:rotate(30deg) scaleX(.62);border-color:#6dd6e780}
+    .orb{width:90px;height:90px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#d7d0ff,#8675ff 28%,#26305c 70%);box-shadow:0 0 70px #8877ff70;z-index:1}
+    section{padding:54px 0;border-top:1px solid var(--line)}h2{font-size:1.8rem;letter-spacing:-.035em;margin:0 0 10px} .section-intro{color:var(--muted);max-width:740px;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{padding:23px;border:1px solid var(--line);background:linear-gradient(160deg,#151f34,#101729);border-radius:18px}.card h3{margin:7px 0 9px;font-size:1.12rem}.card p{color:var(--muted);font-size:.96rem}.number{color:var(--cyan);font-weight:800;font-size:.78rem;letter-spacing:.12em}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.tag{font-size:.78rem;color:#c9d7ff;border:1px solid #334667;background:#1b2a45;padding:3px 9px;border-radius:99px}
+    .interests{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.interest{padding:16px;border-radius:14px;background:var(--panel2);border:1px solid var(--line);font-weight:650}
+    .pub{padding:18px 0;border-bottom:1px solid var(--line)}.pub:last-child{border:0}.pub strong{display:block}.pub span{color:var(--muted);font-size:.94rem}
+    .contactbox{padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(120deg,#171f39,#10212e);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    footer{padding:30px 0 44px;color:var(--muted);font-size:.9rem}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:58px}.visual{min-height:200px}.grid{grid-template-columns:1fr}.interests{grid-template-columns:1fr 1fr}.navlinks{gap:12px}} @media(max-width:440px){.interests{grid-template-columns:1fr}.wrap{padding:0 17px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav><a class="brand" href="#">RESEARCH / PORTFOLIO</a><div class="navlinks"><a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#contact">Contact</a></div></nav></div></header>
+<main>
+  <div class="wrap">
+    <section class="hero" style="border:0">
+      <div>
+        <div class="eyebrow">Computer Vision · Scientific Imaging · Machine Learning</div>
+        <h1>Turning complex images into <span class="gradient">scientific insight.</span></h1>
+        <p class="lead">I am a researcher working at the intersection of computer vision, machine learning, and scientific imaging, with an interest in physics-informed analysis of complex physical systems.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore projects ↓</a>
+          <a class="btn" href="mailto:YOUR-EMAIL@example.com">Contact me</a>
+          <a class="btn" href="https://github.com/YOUR-USERNAME">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="visual" role="img" aria-label="Abstract scientific visualization"><div class="orb"></div></div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p class="section-intro">My research interests center on extracting reliable information from complex imaging data. I am interested in combining data-driven learning with physical understanding, quantitative analysis, and careful evaluation.</p>
+      <div class="interests">
+        <div class="interest">High-speed imaging</div><div class="interest">Computer vision & deep learning</div><div class="interest">Tomographic reconstruction</div><div class="interest">Scientific image analysis</div><div class="interest">Robustness & uncertainty</div><div class="interest">Efficient AI systems</div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research themes</h2>
+      <p class="section-intro">A few directions that connect my background and future research interests.</p>
+      <div class="grid">
+        <article class="card"><div class="number">01 / IMAGING</div><h3>High-speed diagnostics</h3><p>Analyze rapidly evolving image sequences to characterize transient structures and spatiotemporal dynamics.</p><div class="tags"><span class="tag">Video analysis</span><span class="tag">Tracking</span></div></article>
+        <article class="card"><div class="number">02 / INVERSE PROBLEMS</div><h3>Tomographic reconstruction</h3><p>Investigate reconstruction methods that recover spatial information from indirect or multi-view measurements.</p><div class="tags"><span class="tag">Reconstruction</span><span class="tag">Scientific computing</span></div></article>
+        <article class="card"><div class="number">03 / TRUSTWORTHY AI</div><h3>Reliable visual learning</h3><p>Study model robustness, uncertainty, and generalization under noise and challenging acquisition conditions.</p><div class="tags"><span class="tag">Deep learning</span><span class="tag">Uncertainty</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected projects</h2>
+      <p class="section-intro">Replace these starter descriptions with your actual project details, results, and code links before sharing this portfolio publicly.</p>
+      <div class="grid">
+        <article class="card"><div class="number">PROJECT 01</div><h3>High-Speed Turbulence Analysis</h3><p>Detection and tracking of evolving structures in high-speed scientific image sequences. Add your data description, methods, quantitative results, and representative figures.</p><div class="tags"><span class="tag">Python</span><span class="tag">Computer vision</span><span class="tag">Video</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
+        <article class="card"><div class="number">PROJECT 02</div><h3>Scientific Tomography</h3><p>A project page for image reconstruction: explain the measurement model, reconstruction pipeline, validation, and limitations.</p><div class="tags"><span class="tag">Inverse problems</span><span class="tag">Imaging</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
+        <article class="card"><div class="number">PROJECT 03</div><h3>Robust Segmentation</h3><p>A reproducible study of segmentation under ambiguity, noise, or changing imaging conditions. Include baselines and evaluation metrics.</p><div class="tags"><span class="tag">PyTorch</span><span class="tag">Segmentation</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & presentations</h2>
+      <p class="section-intro">Add verified citations and links only. If this list is empty for now, you can remove the example below until you are ready.</p>
+      <div class="pub"><strong>[Paper or presentation title]</strong><span>Authors · Venue or event · Year · <a href="#">Paper / preprint</a> · <a href="#">Code</a></span></div>
+    </section>
+
+    <section id="contact">
+      <div class="contactbox"><div><h2>Let’s connect.</h2><p class="section-intro" style="margin:6px 0 0">Open to research discussions and collaborations in computer vision and scientific imaging.</p></div><div class="actions" style="margin:0"><a class="btn primary" href="mailto:YOUR-EMAIL@example.com">Email me</a><a class="btn" href="https://www.linkedin.com/">LinkedIn</a><a class="btn" href="https://scholar.google.com/">Google Scholar</a></div></div>
+    </section>
+  </div>
+</main>
+<footer><div class="wrap">© <span id="year"></span> YOUR NAME · Built with HTML & CSS · Hosted with GitHub Pages</div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
