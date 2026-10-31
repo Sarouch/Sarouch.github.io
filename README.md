@@ -62,7 +62,7 @@ If you do not yet have a publication for a project, leave this section out or la
 
 Add only tools you have actually used. Example categories:
 
-- **Programming:** Python, C/C++
+- **Programming:** Python, MATLAB/ Simulink / C/C++
 - **Computer vision / ML:** PyTorch, OpenCV, scikit-learn
 - **Scientific computing:** NumPy, SciPy, Matplotlib
 - **Engineering:** Git, Linux, Docker *(as applicable)*
@@ -70,9 +70,9 @@ Add only tools you have actually used. Example categories:
 ## Contact
 
 - **Email:** `your.professional.email@example.com`
-- **LinkedIn:** [Your LinkedIn profile](https://www.linkedin.com/)
-- **Google Scholar:** [Your Google Scholar profile](https://scholar.google.com/)
-- **Website:** [Your GitHub Pages portfolio](https://YOUR-USERNAME.github.io/)
+- **LinkedIn:** [www.linkedin.com/in/sarah-chouchene-050195](https://www.linkedin.com/)
+- **Google Scholar:** [https://scholar.google.com/citations?user=DtIsq-cAAAAJ&hl=fr&oi=ao](https://scholar.google.com/)
+- **Website:** [https://Sarouch.github.io/](https://YOUR-USERNAME.github.io/)
 
 ---
 
