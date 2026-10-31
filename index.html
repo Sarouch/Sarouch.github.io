@@ -1,11 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research portfolio in computer vision, machine learning, and scientific imaging.">
-  <title>Research Portfolio | Computer Vision & Scientific Imaging</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Research portfolio of Sarah Chouchene: scientific imaging, plasma physics, machine learning, magnetic sensing, 3D reconstruction, publications and research achievements." name="description"/>
+<title>Sarah Chouchene | Research Portfolio &amp; Publications</title>
+<style>
     :root{--bg:#0b1020;--panel:#121a2d;--panel2:#172239;--text:#edf2ff;--muted:#aab6d1;--line:#2a3855;--accent:#9b8cff;--cyan:#6dd6e7;--max:1080px}
     *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse at top right,#1d2450 0,transparent 42%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     a{color:var(--cyan);text-decoration:none} a:hover{text-decoration:underline} .wrap{max-width:var(--max);margin:auto;padding:0 24px}
@@ -27,66 +28,98 @@
     .contactbox{padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(120deg,#171f39,#10212e);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
     footer{padding:30px 0 44px;color:var(--muted);font-size:.9rem}
     @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:58px}.visual{min-height:200px}.grid{grid-template-columns:1fr}.interests{grid-template-columns:1fr 1fr}.navlinks{gap:12px}} @media(max-width:440px){.interests{grid-template-columns:1fr}.wrap{padding:0 17px}}
-  </style>
+  
+.pub{padding:21px 0}.pub strong{font-size:1.04rem;line-height:1.4}.pub span{display:block;margin-top:6px}
+.card{transition:transform .18s ease,border-color .18s ease}.card:hover{transform:translateY(-3px);border-color:#6979bb}
+section h3{margin-top:26px;color:#dce7ff}.section-intro{max-width:850px}
+</style>
 </head>
 <body>
-<header><div class="wrap"><nav><a class="brand" href="#">RESEARCH / PORTFOLIO</a><div class="navlinks"><a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#contact">Contact</a></div></nav></div></header>
+<header><div class="wrap"><nav><a class="brand" href="#">SARAH CHOUCHENE <span style="color:var(--cyan)">/ RESEARCH</span></a><div class="navlinks"><a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></div></nav></div></header>
 <main>
-  <div class="wrap">
-    <section class="hero" style="border:0">
-      <div>
-        <div class="eyebrow">Computer Vision · Scientific Imaging · Machine Learning</div>
-        <h1>Turning complex images into <span class="gradient">scientific insight.</span></h1>
-        <p class="lead">I am a researcher working at the intersection of computer vision, machine learning, and scientific imaging, with an interest in physics-informed analysis of complex physical systems.</p>
-        <div class="actions">
-          <a class="btn primary" href="#projects">Explore projects ↓</a>
-          <a class="btn" href="mailto:YOUR-EMAIL@example.com">Contact me</a>
-          <a class="btn" href="https://github.com/YOUR-USERNAME">GitHub ↗</a>
-        </div>
-      </div>
-      <div class="visual" role="img" aria-label="Abstract scientific visualization"><div class="orb"></div></div>
-    </section>
+<div class="wrap">
+<section class="hero" style="border:0">
+<div>
+<div class="eyebrow">Ph.D. · Machine Learning · Computer Vision · Physics-informed AI</div>
+<h1>From physical measurements to <span class="gradient">intelligent algorithms.</span></h1>
+<p class="lead">I am an AI/ML research engineer with a Ph.D. in plasma physics and machine vision. My work spans high-speed scientific imaging, turbulence detection and tracking, physics-informed learning for magnetic sensing, 3D reconstruction, and efficient deep-learning models.</p>
+<div class="actions">
+<a class="btn primary" href="#publications">Explore publications ↓</a>
+<a class="btn" href="#projects">Research projects</a>
+<a class="btn" href="#contact">Contact</a>
+</div>
+</div>
+<div aria-label="Abstract scientific visualization" class="visual" role="img"><div class="orb"></div></div>
+</section>
+<section id="about">
+<h2>About</h2>
+<p class="section-intro">My research combines physical understanding with machine learning to extract reliable information from complex measurements. I have worked with high-speed imaging of plasma phenomena, sensor-based inverse problems, computer vision, and 3D reconstruction. I am interested in bridging scientific algorithm development and practical AI systems.</p>
+<div class="interests">
+<div class="interest">Plasma turbulence &amp; high-speed imaging</div>
+<div class="interest">Detection, tracking &amp; anomaly analysis</div>
+<div class="interest">Magnetic sensors &amp; PINNs</div>
+<div class="interest">3D reconstruction &amp; medical imaging</div>
+<div class="interest">Model compression &amp; edge AI</div>
+<div class="interest">Multimodal &amp; physics-aware ML</div>
+</div>
+</section>
+<section id="research">
+<h2>Research themes</h2>
+<p class="section-intro">Established research areas and recent engineering work, from experimental plasma diagnostics to sensor-based learning.</p>
+<div class="grid">
+<article class="card"><div class="number">01 / PLASMA PHYSICS</div><h3>High-speed plasma imaging</h3><p>Detecting, tracking, and analyzing turbulent structures in fusion plasmas from ultrafast experimental image sequences, including data acquired at up to one million frames per second.</p><div class="tags"><span class="tag">Scientific imaging</span><span class="tag">Object detection</span><span class="tag">Tracking</span></div></article>
+<article class="card"><div class="number">02 / SENSOR AI</div><h3>Physics-informed magnetic localization</h3><p>Estimating magnetic-sensor position and orientation from measured magnetic fields using physics-informed neural networks and simulation/experiment comparisons.</p><div class="tags"><span class="tag">PINNs</span><span class="tag">PyTorch</span><span class="tag">Radia</span></div></article>
+<article class="card"><div class="number">03 / 3D &amp; EDGE AI</div><h3>Reconstruction and efficient vision</h3><p>Building 3D processing pipelines for orthosis prototyping and investigating teacher–student distillation to improve the efficiency of YOLO-based detectors.</p><div class="tags"><span class="tag">Open3D</span><span class="tag">Segmentation</span><span class="tag">Distillation</span></div></article>
+</div>
+</section>
+<section id="projects">
+<h2>Selected projects</h2>
+<p class="section-intro">Selected research and engineering projects. Some underlying datasets and implementations are not publicly available; descriptions below focus on methods and outcomes that can be shared.</p>
+<div class="grid">
+<article class="card"><div class="number">PHD RESEARCH · 2020–2024</div><h3>Plasma turbulence detection &amp; tracking</h3><p>Developed supervised learning and image-processing methods for detecting and following evolving turbulent structures in high-speed plasma images, supporting quantitative studies of plasma dynamics.</p><div class="tags"><span class="tag">YOLO</span><span class="tag">Python</span><span class="tag">High-speed imaging</span></div><p><a href="#pub-pre">Related paper →</a></p></article>
+<article class="card"><div class="number">ICUBE / CNRS · 2025–2026</div><h3>Magnetic-sensor localization with PINNs</h3><p>Developed physics-informed learning workflows to infer sensor position and orientation from magnetic measurements, with CUDA-accelerated training, experiment tracking in MLflow, and comparison with Radia simulations.</p><div class="tags"><span class="tag">PINNs</span><span class="tag">PyTorch</span><span class="tag">MLflow</span></div><p><a href="#pub-submitted">Related manuscript →</a></p></article>
+<article class="card"><div class="number">ICUBE / CNRS · 2025–2026</div><h3>3D reconstruction for custom orthoses</h3><p>Designed preprocessing, segmentation, surface and mesh reconstruction, and quality-control steps for custom orthosis prototyping. Used OpenCV, scikit-image, Open3D, CloudCompare, and ParaView.</p><div class="tags"><span class="tag">3D reconstruction</span><span class="tag">Open3D</span><span class="tag">Medical applications</span></div></article>
+<article class="card"><div class="number">ICUBE / CNRS · 2025–2026</div><h3>Efficient object detection through distillation</h3><p>Investigated teacher–student knowledge distillation for compact YOLO models under edge and embedded deployment constraints.</p><div class="tags"><span class="tag">YOLO</span><span class="tag">Knowledge distillation</span><span class="tag">Edge AI</span></div></article>
+<article class="card"><div class="number">RESEARCH INTERNSHIP · 2021</div><h3>COMPASS tokamak diagnostics</h3><p>Processed experimental diagnostic datasets and contributed to interpretation and validation of analysis results at the Institute of Plasma Physics in Prague.</p><div class="tags"><span class="tag">Tokamak</span><span class="tag">Experimental data</span></div></article>
+<article class="card"><div class="number">TECHNICAL CHALLENGES · 2026</div><h3>3D landmarks &amp; autofocus</h3><p>Explored supervised anatomical landmark extraction from 3D meshes and contrast-based autofocus optimization in Huawei Tech Arena challenges.</p><div class="tags"><span class="tag">3D meshes</span><span class="tag">Optimization</span><span class="tag">Computer vision</span></div></article>
+</div>
+</section>
+<section id="publications">
+<h2>Publications &amp; scholarly output</h2>
+<p class="section-intro">Selected peer-reviewed articles, collaborative research, and my doctoral thesis. The submitted manuscript is clearly distinguished from published work.</p>
+<h3>First-author papers</h3>
+<div class="pub" id="pub-pre"><strong>Mutual interactions between plasma filaments in a tokamak evidenced by fast imaging and machine learning</strong><span>S. Chouchene et al. · <em>Physical Review E</em> 109(4), 045201 · 2024 · Peer-reviewed article</span></div>
+<div class="pub"><strong>Application of machine learning for detecting and tracking turbulent structures in plasma fusion devices using ultra fast imaging</strong><span>S. Chouchene et al. · <em>Scientific Reports</em> 14, 27965 · 2024 · Peer-reviewed article</span></div>
+<h3>Collaborative publications</h3>
+<div class="pub"><strong>Deep learning analysis of fast imaging data</strong><span>F. Brochard, H. Aksoy, S. Chouchene, J. Cavalier, M. Desecure, N. Lemoine · <em>Journal of Physics: Conference Series</em> 3194(1), 012030 · 2026 · Title abbreviated in source CV; verify full title before publication</span></div>
+<div class="pub"><strong>Journal of Physics D: Applied Physics — collaborative article</strong><span>A. Hellé, R. Hugon, F. Brochard, S. Chouchene, G. Marcos, J. Moritz, P. Schweitzer · <em>Journal of Physics D: Applied Physics</em> 57(42), 425201 · 2024 · Full title to be confirmed</span></div>
+<h3>Submitted work</h3>
+<div class="pub" id="pub-submitted"><strong>Physics Informed Neural Networks compared to Random Forest to improve magnetic localization</strong><span>S. Chouchene, M. Lambert, C. Féry, J. Lam-Weil, L. Hébrard, J. Pascal, M. Madec · Submitted to <em>Scientific Reports</em> (status per supplied CV; confirm before publishing)</span></div>
+<h3>Doctoral thesis</h3>
+<div class="pub"><strong>Applications de l’intelligence artificielle à l’étude de la turbulence plasma en fusion nucléaire et aux plasmas d’arc en régime DC</strong><span>Ph.D. thesis · Université de Lorraine · 2024 · NNT 2024LORR0265 · <a href="https://theses.hal.science/tel-04961635" rel="noopener noreferrer" target="_blank">Open thesis ↗</a></span></div>
+</section>
 
-    <section id="about">
-      <h2>About</h2>
-      <p class="section-intro">My research interests center on extracting reliable information from complex imaging data. I am interested in combining data-driven learning with physical understanding, quantitative analysis, and careful evaluation.</p>
-      <div class="interests">
-        <div class="interest">High-speed imaging</div><div class="interest">Computer vision & deep learning</div><div class="interest">Tomographic reconstruction</div><div class="interest">Scientific image analysis</div><div class="interest">Robustness & uncertainty</div><div class="interest">Efficient AI systems</div>
-      </div>
-    </section>
-
-    <section id="research">
-      <h2>Research themes</h2>
-      <p class="section-intro">A few directions that connect my background and future research interests.</p>
-      <div class="grid">
-        <article class="card"><div class="number">01 / IMAGING</div><h3>High-speed diagnostics</h3><p>Analyze rapidly evolving image sequences to characterize transient structures and spatiotemporal dynamics.</p><div class="tags"><span class="tag">Video analysis</span><span class="tag">Tracking</span></div></article>
-        <article class="card"><div class="number">02 / INVERSE PROBLEMS</div><h3>Tomographic reconstruction</h3><p>Investigate reconstruction methods that recover spatial information from indirect or multi-view measurements.</p><div class="tags"><span class="tag">Reconstruction</span><span class="tag">Scientific computing</span></div></article>
-        <article class="card"><div class="number">03 / TRUSTWORTHY AI</div><h3>Reliable visual learning</h3><p>Study model robustness, uncertainty, and generalization under noise and challenging acquisition conditions.</p><div class="tags"><span class="tag">Deep learning</span><span class="tag">Uncertainty</span></div></article>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2>Selected projects</h2>
-      <p class="section-intro">Replace these starter descriptions with your actual project details, results, and code links before sharing this portfolio publicly.</p>
-      <div class="grid">
-        <article class="card"><div class="number">PROJECT 01</div><h3>High-Speed Turbulence Analysis</h3><p>Detection and tracking of evolving structures in high-speed scientific image sequences. Add your data description, methods, quantitative results, and representative figures.</p><div class="tags"><span class="tag">Python</span><span class="tag">Computer vision</span><span class="tag">Video</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
-        <article class="card"><div class="number">PROJECT 02</div><h3>Scientific Tomography</h3><p>A project page for image reconstruction: explain the measurement model, reconstruction pipeline, validation, and limitations.</p><div class="tags"><span class="tag">Inverse problems</span><span class="tag">Imaging</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
-        <article class="card"><div class="number">PROJECT 03</div><h3>Robust Segmentation</h3><p>A reproducible study of segmentation under ambiguity, noise, or changing imaging conditions. Include baselines and evaluation metrics.</p><div class="tags"><span class="tag">PyTorch</span><span class="tag">Segmentation</span></div><p><a href="https://github.com/YOUR-USERNAME">View repository →</a></p></article>
-      </div>
-    </section>
-
-    <section id="publications">
-      <h2>Publications & presentations</h2>
-      <p class="section-intro">Add verified citations and links only. If this list is empty for now, you can remove the example below until you are ready.</p>
-      <div class="pub"><strong>[Paper or presentation title]</strong><span>Authors · Venue or event · Year · <a href="#">Paper / preprint</a> · <a href="#">Code</a></span></div>
-    </section>
-
-    <section id="contact">
-      <div class="contactbox"><div><h2>Let’s connect.</h2><p class="section-intro" style="margin:6px 0 0">Open to research discussions and collaborations in computer vision and scientific imaging.</p></div><div class="actions" style="margin:0"><a class="btn primary" href="mailto:YOUR-EMAIL@example.com">Email me</a><a class="btn" href="https://www.linkedin.com/">LinkedIn</a><a class="btn" href="https://scholar.google.com/">Google Scholar</a></div></div>
-    </section>
-  </div>
+<section id="achievements">
+<h2>Research achievements &amp; presentations</h2>
+<p class="section-intro">Selected awards, invited presentations, and conference contributions.</p>
+<div class="grid">
+<article class="card"><div class="number">AWARD · 2024</div><h3>C2MP Doctoral School Thesis Award</h3><p>Recognition for doctoral research, as listed in my academic CV.</p></article>
+<article class="card"><div class="number">INVITED SEMINAR · 2026</div><h3>Machine Vision and Deep Learning for Plasma Analysis in Nuclear Fusion</h3><p>Invited seminar at PIIM Laboratory, Aix-Marseille University, May 2026.</p></article>
+<article class="card"><div class="number">CONFERENCE · 2025</div><h3>Machine-Learning Algorithm Applied to Magnetic Localization</h3><p>Collaborative contribution at IEEE NEWCAS 2025.</p></article>
+<article class="card"><div class="number">CONFERENCE · 2026</div><h3>Guided Feature Distillation for YOLO11</h3><p>Collaborative contribution on efficient microscopy detection, listed for IDA 2026.</p></article>
+<article class="card"><div class="number">CONFERENCE · 2022</div><h3>Detection of Edge Plasma Turbulence Using Ultra Speed Camera and Artificial Intelligence</h3><p>Contribution to the APS Division of Plasma Physics Meeting, Spokane, 2022.</p></article>
+<article class="card"><div class="number">RESEARCH EXCHANGE</div><h3>Scientific dissemination</h3><p>Research presentations and participation in plasma physics and AI-in-health scientific events in France and Switzerland.</p></article>
+</div>
+</section>
+<section id="contact">
+<div class="contactbox">
+<div><h2>Let’s connect.</h2><p class="section-intro" style="margin:6px 0 0">Interested in collaborations involving scientific machine learning, sensor data, computer vision, and physics-informed AI.</p></div>
+<div class="actions" style="margin:0"><a class="btn primary" href="https://www.linkedin.com/in/sarah-chouchene-050195" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a><a class="btn" href="https://orcid.org/0009-0007-7750-8645" rel="noopener noreferrer" target="_blank">ORCID ↗</a></div>
+</div>
+</section>
+</div>
 </main>
-<footer><div class="wrap">© <span id="year"></span> YOUR NAME · Built with HTML & CSS · Hosted with GitHub Pages</div></footer>
+<footer><div class="wrap">© <span id="year"></span> Sarah Chouchene · Research portfolio · Built with HTML &amp; CSS · GitHub Pages ready</div></footer>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
